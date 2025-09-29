@@ -3,6 +3,31 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# File di output e ausiliari di LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+*.pdf
+
+# File specifici di editor
+.vscode/
+.idea/
+
+# File di Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
 # C extensions
 *.so
 
