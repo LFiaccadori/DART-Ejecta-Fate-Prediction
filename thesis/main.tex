@@ -1,0 +1,118 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TEMPLATE TESI MAGISTRALE IN ASTROFISICA
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% --- CLASSE DEL DOCUMENTO ---
+% 'report' è standard per le tesi. 
+% '12pt' dimensione font, 'a4paper' per il formato pagina.
+% 'oneside' è più semplice per la stesura (puoi cambiarlo in 'twoside' per la stampa finale)
+\documentclass[12pt, a4paper, oneside]{report}
+
+% --- LINGUA E CODIFICA ---
+\usepackage[utf8]{inputenc}     % Codifica per caratteri speciali (accenti, ecc.)
+\usepackage[T1]{fontenc}        % Codifica dei font moderna
+\usepackage[italian]{babel}     % Imposta la lingua italiana (per "Capitolo", "Indice", ecc.)
+
+% --- GESTIONE BIBLIOGRAFIA (MODERNA) ---
+% Usa biblatex + biber, molto più potente di bibtex
+\usepackage[
+    backend=biber,          % Motore da usare
+    style=numeric,          % Stile citazioni (es. [1], [2]). Alternativa: 'authoryear'
+    sorting=none            % Ordina la bibliografia per apparizione
+]{biblatex}
+\addbibresource{bibliografia.bib} % Nome del file .bib
+
+% --- PACCHETTI SCIENTIFICI E MATEMATICI ---
+\usepackage{amsmath}        % Matematica avanzata
+\usepackage{amssymb}        % Simboli matematici
+\usepackage{amsfonts}       % Font matematici
+\usepackage{siunitx}        % Per unità di misura (es. \SI{10}{\kilo\gram})
+
+% --- GRAFICA E TABELLE ---
+\usepackage{graphicx}       % Per includere immagini
+\usepackage{booktabs}       % Per tabelle professionali (comandi: \toprule, \midrule, \bottomrule)
+\usepackage{caption}        % Per personalizzare le didascalie
+\captionsetup{tableposition=top,figureposition=bottom,font=small}
+
+% --- LAYOUT E ALTRO ---
+\usepackage{geometry}       % Per impostare i margini
+\geometry{a4paper, top=3cm, bottom=3cm, left=3.5cm, right=3cm}
+\usepackage{emptypage}      % Non numera le pagine vuote
+\usepackage{hyperref}       % Rende i link cliccabili (Indice, citazioni, URL)
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,        % Colore link interni (es. Indice)
+    citecolor=blue,         % Colore citazioni
+    urlcolor=cyan           % Colore URL
+}
+
+% --- IMPOSTAZIONI GLOBALI ---
+% Imposta la cartella principale per le immagini
+\graphicspath{ {figure/} }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% INIZIO DEL DOCUMENTO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% --- COPERTINA (FRONTESPIZIO) ---
+% Includiamo il file separato che contiene solo la copertina
+% Questa pagina non avrà numero
+\input{frontespizio.tex}
+
+
+% --- FRONT MATTER (PAGINE INIZIALI) ---
+% Iniziamo la numerazione romana per le pagine preliminari
+\pagenumbering{roman}
+
+% --- SOMMARIO/ABSTRACT ---
+% Puoi creare un file .tex per l'abstract e includerlo qui
+% \input{sommario.tex}
+
+% --- RINGRAZIAMENTI (Opzionale) ---
+% \input{ringraziamenti.tex}
+
+
+% --- INDICE GENERALE ---
+\tableofcontents
+\cleardoublepage
+
+% --- ELENCO FIGURE E TABELLE (Opzionale ma raccomandato) ---
+\listoffigures
+\cleardoublepage
+
+\listoftables
+\cleardoublepage
+
+
+% --- CORPO PRINCIPALE DELLA TESI ---
+% Iniziamo la numerazione araba (1, 2, 3...) da qui
+\cleardoublepage
+\pagenumbering{arabic}
+
+% Includiamo i capitoli, uno per file
+% Questa struttura è FONDAMENTALE per non perdersi
+% \input{capitoli/01_introduzione.tex}
+% \input{capitoli/02_dati_e_metodi.tex}
+% \input{capitoli/03_modello_ml.tex}
+% \input{capitoli/04_risultati_e_discussione.tex}
+% \input{capitoli/05_conclusioni.tex}
+
+
+% --- APPENDICI (Opzionale) ---
+\appendix % Da qui in poi, i capitoli saranno "Appendice A", "Appendice B", ...
+% \input{appendici/A_algoritmi.tex}
+
+
+% --- BIBLIOGRAFIA ---
+\cleardoublepage
+%\printbibliography[title={Bibliografia}] % Stampa la bibliografia
+
+
+\end{document}
+
