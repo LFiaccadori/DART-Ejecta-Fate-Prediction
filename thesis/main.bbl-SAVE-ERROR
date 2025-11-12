@@ -1,0 +1,208 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{binzelMeteoritesEarlySolar2006}{book}{}
+      \name{author}{3}{}{%
+        {{hash=e3de323311c8a39ea75bf0a90e0e2b97}{%
+           family={Binzel},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=163959b0ae7610a27dca928a7f0496d7}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d00f68a5b498457191c0daaf1b1fc4d4}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={Alastair\bibnamedelimb G.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=311af35a3357c4d0c12d53ae01836608}{%
+           family={Lauretta},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cfb3216baf53e81a662f98e67041cad6}{%
+           family={McSween},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi Y.},
+           giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Arizona Press}%
+      }
+      \strng{namehash}{14f8f2480dd002c7895e9da5041d24b1}
+      \strng{fullhash}{14f8f2480dd002c7895e9da5041d24b1}
+      \strng{bibnamehash}{14f8f2480dd002c7895e9da5041d24b1}
+      \strng{authorbibnamehash}{14f8f2480dd002c7895e9da5041d24b1}
+      \strng{authornamehash}{14f8f2480dd002c7895e9da5041d24b1}
+      \strng{authorfullhash}{14f8f2480dd002c7895e9da5041d24b1}
+      \strng{editorbibnamehash}{e120c0a8f3b1633cc48aa2c317febf7f}
+      \strng{editornamehash}{e120c0a8f3b1633cc48aa2c317febf7f}
+      \strng{editorfullhash}{e120c0a8f3b1633cc48aa2c317febf7f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{They range in size from microscopic particles to masses of many tons. The geologic diversity of asteroids and other rocky bodies of the solar system are displayed in the enormous variety of textures and mineralogies observed in meteorites. The composition, chemistry, and mineralogy of primitive meteorites collectively provide evidence for a wide variety of chemical and physical processes. This book synthesizes our current understanding of the early solar system, summarizing information about processes that occurred before its formation. It will be valuable as a textbook for graduate education in planetary science and as a reference for meteoriticists and researchers in allied fields worldwide.}
+      \field{editortype}{redactor}
+      \field{eprinttype}{jstor}
+      \field{isbn}{978-0-8165-2562-1}
+      \field{title}{Meteorites and the {{Early Solar System II}}}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2307/j.ctv1v7zdmm
+      \endverb
+      \verb{eprint}
+      \verb j.ctv1v7zdmm
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/j.ctv1v7zdmm
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/j.ctv1v7zdmm
+      \endverb
+    \endentry
+    \entry{DiscoveryStatistics}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Discovery {{Statistics}}}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\fiacc\Zotero\storage\LET2W58E\totals.html
+      \endverb
+      \verb{urlraw}
+      \verb https://cneos.jpl.nasa.gov/stats/totals.html
+      \endverb
+      \verb{url}
+      \verb https://cneos.jpl.nasa.gov/stats/totals.html
+      \endverb
+    \endentry
+    \entry{chengAsteroidImpactDeflection2016}{article}{}
+      \name{author}{10}{}{%
+        {{hash=8128878c843ff0258ce309d29c0e4fde}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=315cab441d841c10e0b25f2596df0726}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1e70dc8e7c2a7ef70f19b6ffd0e05ed6}{%
+           family={Jutzi},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bb151f05443389872e21dfabf1361436}{%
+           family={Rivkin},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5a2268d2b41cb2c92b9ff15288c4f003}{%
+           family={Stickle},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=138e9cd5d6f49e280921938cc09943ef}{%
+           family={Barnouin},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=0086d8232e39db97da92470f806b0eb8}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e05935c3905d1b2e51ea3a7cb4e37b2c}{%
+           family={Atchison},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=70b862081109a77dbbb4746ba6eb1455}{%
+           family={Pravec},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f191d9836529b959df59de7d60083fa5}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{211de3c83d4acae6c2c053a32fb2fca0}
+      \strng{fullhash}{ad68f933fa6400f067189e217845ffd7}
+      \strng{bibnamehash}{211de3c83d4acae6c2c053a32fb2fca0}
+      \strng{authorbibnamehash}{211de3c83d4acae6c2c053a32fb2fca0}
+      \strng{authornamehash}{211de3c83d4acae6c2c053a32fb2fca0}
+      \strng{authorfullhash}{ad68f933fa6400f067189e217845ffd7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Asteroid Impact \& Deflection Assessment (AIDA) mission will be the first space experiment to demonstrate asteroid impact hazard mitigation by using a kinetic impactor to deflect an asteroid. AIDA is an international cooperation, consisting of two mission elements: the NASA Double Asteroid Redirection Test (DART) mission and the ESA Asteroid Impact Mission (AIM) rendezvous mission. The primary goals of AIDA are (i) to test our ability to perform a spacecraft impact on a potentially hazardous near-Earth asteroid and (ii) to measure and characterize the deflection caused by the impact. The AIDA target will be the binary near-Earth asteroid (65803) Didymos, with the deflection experiment to occur in late September, 2022. The DART impact on the secondary member of the binary at \textasciitilde 7km/s is expected to alter the binary orbit period by about 4 minutes, assuming a simple transfer of momentum to the target, and this period change will be measured by Earth-based observatories. The AIM spacecraft will characterize the asteroid target and monitor results of the impact in situ at Didymos. The DART mission is a full-scale kinetic impact to deflect a 150m diameter asteroid, with known impactor conditions and with target physical properties characterized by the AIM mission. Predictions for the momentum transfer efficiency of kinetic impacts are given for several possible target types of different porosities, using~Housen and Holsapple (2011) crater scaling model for impact ejecta mass and velocity distributions. Results are compared to numerical simulation results using the Smoothed Particle Hydrodynamics code of Jutzi and Michel (2014) with good agreement. The model also predicts that the ejecta from the DART impact may make Didymos into an active asteroid, forming an ejecta coma that may be observable from Earth-based telescopes. The measurements from AIDA of the momentum transfer from the DART impact, the crater size and morphology, and the evolution of an ejecta coma will substantially advance understanding of impact processes on asteroids.}
+      \field{day}{1}
+      \field{issn}{0032-0633}
+      \field{journaltitle}{Planetary and Space Science}
+      \field{month}{2}
+      \field{shortjournal}{Planetary and Space Science}
+      \field{shorttitle}{Asteroid {{Impact}} \& {{Deflection Assessment}} Mission}
+      \field{title}{Asteroid {{Impact}} \& {{Deflection Assessment}} Mission: {{Kinetic}} Impactor}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{121}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{27\bibrangedash 35}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.pss.2015.12.004
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\fiacc\\Zotero\\storage\\MQ2SPISR\\Cheng et al. - 2016 - Asteroid Impact & Deflection Assessment mission Kinetic impactor.pdf;C\:\\Users\\fiacc\\Zotero\\storage\\SDKYEJJS\\S0032063315300337.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0032063315300337
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0032063315300337
+      \endverb
+      \keyw{Asteroid impact hazards,Binary asteroids,Kinetic impactor,Near-Earth asteroids,Planetary defense}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
