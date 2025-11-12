@@ -69,3 +69,63 @@ Report Standard Random Forest with 2000 trees
 weighted avg       0.44      0.48      0.45       200
 -----------------------------------------------------
 
+-----------------------------------------------------
+RF - Physics Set - Undersampling
+Report Undersampled Random Forest with 2000 trees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.26      0.19      0.22        42
+           2       0.23      0.23      0.23        57
+           3       0.55      0.29      0.38        99
+
+    accuracy                           0.25       200
+   macro avg       0.26      0.18      0.21       200
+weighted avg       0.39      0.25      0.30       200
+-----------------------------------------------------
+
+-----------------------------------------------------
+RF - Physics Set - Oversampling
+Report Oversampled Random Forest with 2000 trees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.32      0.33      0.33        42
+           2       0.24      0.16      0.19        57
+           3       0.61      0.72      0.66        99
+
+    accuracy                           0.47       200
+   macro avg       0.29      0.30      0.29       200
+weighted avg       0.44      0.47      0.45       200
+-----------------------------------------------------
+
+-----------------------------------------------------
+RF - Physics Set - SMOTE Oversampling
+Report SMOTE Oversampled Random Forest with 2000 trees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.35      0.38      0.36        42
+           2       0.34      0.25      0.29        57
+           3       0.63      0.49      0.55        99
+
+    accuracy                           0.40       200
+   macro avg       0.33      0.28      0.30       200
+weighted avg       0.48      0.40      0.43       200
+-----------------------------------------------------
+
+-----------------------------------------------------
+RF - Physics Set - Weighted
+Report Weighted Random Forest with 2000 trees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.32      0.29      0.30        42
+           2       0.22      0.12      0.16        57
+           3       0.61      0.81      0.70        99
+
+    accuracy                           0.49       200
+   macro avg       0.29      0.30      0.29       200
+weighted avg       0.43      0.49      0.45       200
+-----------------------------------------------------
+
