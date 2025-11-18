@@ -1,5 +1,7 @@
 \chapter{Introduction}\label{chapter:intro} % Un'etichetta per riferirsi al capitolo (es. \ref{cap:intro})
 
+
+\section{Near Earth Objects and Potentially Hazardous Asteroids}
 Every year, a significant amount of extraterrestrial material falls into the atmosphere of the Earth,
 adding up to a hundred tons per year\cite{binzelMeteoritesEarlySolar2006}.
 \begin{figure}[h!]
@@ -10,21 +12,33 @@ adding up to a hundred tons per year\cite{binzelMeteoritesEarlySolar2006}.
 \end{figure}
 
 \noindent On a daily basis, we detect meter-sized objects entering the atmosphere, but much larger objects lurk around the Earth:
-nearly 1000 objects with a size of 1 km or larger are classified as near-Earth objects (NEOs)\cite{DiscoveryStatistics}, with perihelia of 1.3 AU 
-or less.
-If any of those NEOs were to impact our planet, we would face civilization-threatening effects, and such events are thought to occur on a
+nearly 1000 objects with a size of 1 km or larger are classified as near-Earth objects (NEOs)\cite{DiscoveryStatistics}. NEOs are asteroids and comets with a perihelion of 1.3 AU or less; the vast majority of NEOs are asteroids, among which we distinguish the Potentially Hazardous Asteroids (PHAs) which are defined based on some parameters that measure the asteroid impact probability with the Earth.
+Every asteroid that intersects the orbit of the Earth with an Earth Minimum Orbit Intersection Distance of 0.05 AU or less and with an absolute magnitude of 22.0 or less (corresponding to a diameter of about 140 m if we assume an albedo of 0.14), are considered PHAs.
+If any of those PHAs were to impact our planet, we would face effects from significant damage to the local environment to civilization-threatening, based on the size of the asteroid.The most catastrophic events are thought to occur on a
 million-year timescale\cite{chengAsteroidImpactDeflection2016}.
 
-On February 15, 2013, a small asteroid impacted Earth in Chelyabinsk, Russia without warning, injuring over a thousand people; this event triggered an unprecedented interest in NEOs and emphasized the importance of discovering potentially dangerous asteroids and deflect them.
-On this purpose, the Asteroid Impact and Deflection Assessment (AIDA) collaboration was programmed by NASA and ESA to be a first demonstration to protect the Earth from a potentially dangerous target asteroid. An impulsive approach was preferred in order to achieve immediate effects and as a result, the kinetic impactor technique of impacting an incoming object to deflect it was chosen. The original plan for AIDA was to launch two separate spacecrafts, the Asteroid Impact Mission (AIM) and the Double Asteroid Redirection Test (DART). Their target was selected as the binary asteroid system 65803 Didymos, which consists in a fast-spinning primary named Didymos and a smaller secondary named Dimorphos. Neither of those asteroids represent a threat for the Earth but their characteristics made them the ideal targets for the mission. The AIM orbiter should have been launched in 2020 to reach Didymos and study the composition of both asteroids but was later cancelled and substituted by Hera which will reach the system four years after DART.
-On the other hand, DART was launched on November 24, 2021 through a Falcon 9 provided by SpaceX and it became the first plantary defence mission to examine the asteroid deflection capability by kinetic impact.
-Before impacting Dimorphos, DART deployed a CubeSat named LICIACube (Light Italian CubeSat for Imaging of Asteroids) which observed the impact from outside and conduced some measurements on the crater and ejecta while transiting close to the system. DART reached and impacted Dimorphos on September 26, 2022, with a relative velocity of 6.15 km/s\cite{nakanoNASAsDoubleAsteroid2022}.
+\section{The DART Mission and the Didymos System}
+A certain awareness on the dangers posed by Near Earth Objects was brought by the Chelyabinsk event on February 15, 2013, when an unexpected small-sized asteroid entered the atmosphere of the Earth. Since its diameter was not sufficient to reach the surface of the Earth, the asteroid exploded mid-air causing local damage and minor injuries due to its shockwave. This event highlighted the importance and urgency in developing mitigation strategies against Potentially Hazardous Asteroids.
+
+\noindent This event lead to the creation of the Asteroid Impact and Deflection Assessment (AIDA) collaboration between NASA and ESA, with the aim to produce large-scale planetary defence technologies. The chosen method for the first demonstration was the kinetic impactor technique, an impulsive approach designed to obtain an immediate orbital deflection of the asteroid.
+The main goal of AIDA is to demonstrate that the human kind has the ability to deflect a PHA using the kinetic impactor technique, obtaining precious data for future strategies of planetary defence.
+
+\noindent Before embarking in this mission, a suitable target needed to be found. For this purpose, the binary asteroid system 65803 Didymos was chosen; it is composed by a primary body, Didymos ($\sim 780$ m diameter) and a small satellite, Dimorphos ($\sim 160$ m diameter) separated by a distance of about 1.2 km and with an orbital period of 11.92 hours. Didymos is a NEO which orbits the Sun and does not cross the orbit of the Earth so it does not represent a threat for the Earth. This was a suitable choice for two main reasons:
+
+\begin{enumerate}
+    \item \textbf{Measurability:} the reduced mass of Dimorphos in comparison with Didymos means that even a small variation of the satellite velocity leads to a significant and measurble change of its orbital period around the primary. This allowed the scientist to quantify with great precision the efficiency of the kinetic impactor technique. The relatively short distance of the system from the Earth allowed ground-based observation before and after the impact, facilitating the gathering of critical data.
+    \item \textbf{Safety:} by targeting the secondary smaller body, any risk associated to the impact was minimized.
+    Even in case of an unexpected deflection, the probability of the asteroid ending up impacting the Earth was significantly reduced with respect to a direct impact on the primary body.
+\end{enumerate}
+
+\noindent The original AIDA mission plan consisted in two separate spacecrafts: the Double Asteroid Redirection Test (DART) and the Asteroid Impact Mission (AIM, later cancelled and substituted by the Hera mission). DART was launched on November 24, 2021, with a Falcon 9 rocket provided by SpaceX, becoming the first mission entirely dedicated to planetary defence. DART is a compact cubic spacecraft with a mass of around 500 kg, equipped with an autonomous navigation system called SMART Nav (Small-body Maneuvering Autonomous Real-Time Navigation) designed to manouver the probe towards Dimorphos with high precision.
+
+\noindent Before the impact, DART deployed a CubeSat, LICIACube (Light Italian CubeSat for Imaging of Asteroids), whose purpose was to observe the collision and the ejecta stream resulting from the impact.
+
+\noindent On September 26, 2022, DART impacted Dimorphos succesfully with a relative velocity of $6.15$ km/s. Successive observations from Earth confirmed the positive result of the mission, revelaing a significative reduction in the orbital period of Dimorphos by $33.0 \pm 1.0$ minutes. The momentum transfer was furthermore boosted by the material ejected from Dimorphos during the impact. The analysis of the dynamics and the fate of these ejecta is the central topic of this thesis\cite{rivkinDoubleAsteroidRedirection2021}\cite{nakanoNASAsDoubleAsteroid2022}\cite{chengMomentumTransferDART2023}.
+
+\section{Observations of the DART Impact}
 LICIACube observed the ejecta from the DART impact while performing a flyby of Dimorphos about 168 s after the collision. The impact ejecta were further observed by Earth and space-based telescopes, revealing also streams and dust tails. Following ground-based observations revealed that the binary orbit period was reduced by 33.0 $\pm$ 1.0 (3$\sigma$) min\cite{chengMomentumTransferDART2023}.
-
-
-Aggiungere stato attuale della missione, parlare delle simulazioni, del buco nella letteratura scientifica che giustifica la tesi e della complessità computazionale.
-
-Presentare la mia idea come una possibile soluzione al problema (modello surrogato sicuramente più veloce).
 
 % \begin{table}[h!]
 % \centering
