@@ -1,0 +1,71 @@
+1D Models with velocity module (speed)
+
+-------------#### LOGISTIC REGRESSION ####-------------
+
+precision    recall  f1-score   support
+
+non-escape (0)       0.90      0.89      0.89       108
+    escape (1)       0.87      0.88      0.88        92
+
+      accuracy                           0.89       200
+     macro avg       0.88      0.88      0.88       200
+  weighted avg       0.89      0.89      0.89       200
+
+Confusion Matrix:
+[[96 12]
+ [11 81]]
+Angular coefficient (m): 3.6760, intercept (q): -0.4858
+Critical speed threshold (scaled): 0.1321
+Critical speed threshold (original, cm/s): 0.10278
+-------------------------------------------------------
+                precision    recall  f1-score   support
+
+non-escape (0)       0.89      0.85      0.87       109
+    escape (1)       0.83      0.87      0.85        91
+
+      accuracy                           0.86       200
+     macro avg       0.86      0.86      0.86       200
+  weighted avg       0.86      0.86      0.86       200
+
+Confusion Matrix:
+[[93 16]
+ [12 79]]
+Angular coefficient (m): 3.2618, intercept (q): -0.4804
+Critical speed threshold (scaled): 0.1473
+Critical speed threshold (original, cm/s): 0.10313
+-------------------------------------------------------
+
+--------------------##### SVM #####--------------------
+SVM Classification Report for Particle A (Escaped):
+                precision    recall  f1-score   support
+
+non-escape (0)       0.87      0.97      0.92       108
+    escape (1)       0.96      0.83      0.89        92
+
+      accuracy                           0.91       200
+     macro avg       0.91      0.90      0.90       200
+  weighted avg       0.91      0.91      0.90       200
+
+Confusion Matrix:
+[[105   3]
+ [ 16  76]]
+Critical speed threshold (scaled): 0.3775
+Critical speed threshold (original, m/s): 0.10855 m/s
+--------------------------------------------------------
+SVM Classification Report for Particle B (Survived):
+                precision    recall  f1-score   support
+
+non-escape (0)       0.85      0.97      0.91       109
+    escape (1)       0.96      0.80      0.87        91
+
+      accuracy                           0.90       200
+     macro avg       0.91      0.89      0.89       200
+  weighted avg       0.90      0.90      0.89       200
+
+Confusion Matrix:
+[[106   3]
+ [ 18  73]]
+Critical speed threshold (scaled): 0.4360
+Critical speed threshold (original, m/s): 0.10983 m/s
+--------------------------------------------------------
+
