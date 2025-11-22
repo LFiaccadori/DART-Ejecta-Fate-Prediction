@@ -69,3 +69,73 @@ Critical speed threshold (scaled): 0.4360
 Critical speed threshold (original, m/s): 0.10983 m/s
 --------------------------------------------------------
 
+----------------NAIVE vs CONTEXT AWARE------------------
+--------------------------------------------------------
+############## LOGISTIC REGRESSION - NAIVE #############
+Naive Model (Velocity Only) Classification Report:
+                precision    recall  f1-score   support
+
+non-escape (0)       0.90      0.89      0.90       216
+    escape (1)       0.87      0.89      0.88       184
+
+      accuracy                           0.89       400
+     macro avg       0.89      0.89      0.89       400
+  weighted avg       0.89      0.89      0.89       400
+
+Confusion Matrix:
+[[192  24]
+ [ 21 163]]
+Critical speed threshold (original, m/s): 0.10312 m/s
+---------------------------------------------------------
+######### LOGISTIC REGRESSION - AWARE ###################
+Model (Velocity + Position) Classification Report:
+                precision    recall  f1-score   support
+
+non-escape (0)       0.90      0.89      0.90       216
+    escape (1)       0.88      0.89      0.88       184
+
+      accuracy                           0.89       400
+     macro avg       0.89      0.89      0.89       400
+  weighted avg       0.89      0.89      0.89       400
+
+Confusion Matrix:
+[[193  23]
+ [ 21 163]]
+
+--- Model Analysis ---
+Weight for Velocity Magnitude (m1): 3.5285 (determines steepness of decision boundary)
+Weight for Position Origin (m2): 0.0262 (shifts decision boundary based on origin)
+----------------------------------------------------------
+############# SVM - NAIVE VS AWARE #######################
+SVM Classification Report for Naive SVM (Velocity Only):
+                 precision    recall  f1-score   support
+
+non-escape (-1)       0.89      0.95      0.92       216
+     escape (1)       0.94      0.86      0.90       184
+
+       accuracy                           0.91       400
+      macro avg       0.91      0.91      0.91       400
+   weighted avg       0.91      0.91      0.91       400
+
+Confusion Matrix:
+[[205  11]
+ [ 25 159]]
+----------------------------------------------------------
+Context-Aware SVM (Velocity + Position):
+                 precision    recall  f1-score   support
+
+non-escape (-1)       0.89      0.94      0.92       216
+     escape (1)       0.92      0.87      0.90       184
+
+       accuracy                           0.91       400
+      macro avg       0.91      0.90      0.91       400
+   weighted avg       0.91      0.91      0.91       400
+
+Confusion Matrix:
+[[203  13]
+ [ 24 160]]
+
+--- SVM Model Comparison ---
+Naive SVM Accuracy: 91.00%
+Context-Aware SVM Accuracy: 90.75%
+Conclusion: Adding position information does not significantly improve SVM performance, indicating chaos dominates.
